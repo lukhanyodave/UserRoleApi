@@ -1,0 +1,6 @@
+@Uwc.Ics.Ws.WebApi.UserApi.Client_HostAddress = http://localhost:5018
+
+GET {{Uwc.Ics.Ws.WebApi.UserApi.Client_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

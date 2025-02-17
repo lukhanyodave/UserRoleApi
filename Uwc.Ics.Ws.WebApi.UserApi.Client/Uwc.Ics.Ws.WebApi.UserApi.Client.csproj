@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Uwc.Ics.Ws.WebApi.UserApi.Application\Uwc.Ics.Ws.WebApi.UserApi.Application.csproj" />
+    <ProjectReference Include="..\Uwc.Ics.Ws.WebApi.UserApi.Domain\Uwc.Ics.Ws.WebApi.UserApi.Domain.csproj" />
+    <ProjectReference Include="..\Uwc.Ics.Ws.WebApi.UserApi.Persistance\Uwc.Ics.Ws.WebApi.UserApi.Persistance.csproj" />
+  </ItemGroup>
+
+	<PropertyGroup>
+		<InvariantGlobalization>false</InvariantGlobalization>
+	</PropertyGroup>
+
+</Project>
